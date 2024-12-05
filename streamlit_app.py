@@ -4,8 +4,8 @@ from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, Settings
 from llama_index.embeddings.gemini import GeminiEmbedding
 
 
-st.set_page_config(page_title="It's your boss, who needs you to come into the office, entirely replaceable with AI.", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
-st.title("Ask your boss replacement anything")
+st.set_page_config(page_title="It's your AI manager.", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
+st.title("Manager Replacer 2.0. is ready to get granular. How can we synergize today?")
 
 
 if "messages" not in st.session_state.keys():  # Initialize the chat messages history
